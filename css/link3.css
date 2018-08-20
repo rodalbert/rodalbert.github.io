@@ -1,0 +1,32 @@
+ h1, h2 {
+      color: orange;
+      
+    }
+    
+
+    .container{
+      width: 900px;
+      margin: 0 auto;
+    }
+
+    
+    .row > div {
+      padding: 20px;
+      background-color: none;
+      border: 2px solid black;
+     }
+
+    h1, h2 {
+      color: orange;
+      align-content: center;
+    }
+    element.style{
+      margin: 60px;
+      padding: 80px;
+    }
+
+    .grid {
+display: grid;
+grid-template-columms: 400px 1 fr 1 fr 1 fr;
+grid-template-rows: 50% 25% 25%;
+    }

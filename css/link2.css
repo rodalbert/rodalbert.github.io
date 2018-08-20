@@ -1,0 +1,10 @@
+ h1, h2 {
+      color: orange;
+      
+    }
+    
+
+    .container{
+      width: 900px;
+      margin: 0 auto;
+    }

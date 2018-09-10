@@ -1,0 +1,105 @@
+body {
+	background: rgb(240, 240, 240);
+	color: rgb(20, 20, 20);
+	font-weight: Helvetica;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+.class {
+	text-align: center;
+}
+
+
+@media screen and (min-width: 800px) {
+    .example {
+	   --example-font-size: 2em;
+ }
+}
+
+
+@media screen and (min-width: 800px) {
+	.row {
+		--row-display: flow;
+	}
+}
+
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+
+* {
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight:bold;
+	font-family: big john;
+	width: 100%;
+	height: 100vh;
+}
+
+h2 {
+	color: #FF8300;
+	font-size: 70px;
+	background:;
+	padding: 8px 24px;
+	border-radius: 16px;
+	font-family: sans-serif;
+	font-weight:100;
+}
+
+h1 {
+	font-family: courier;
+}
+
+
+
+
+a {
+	color: #FF8300;
+	font-size: 70px;
+	background:;
+	padding: 8px 24px;
+	border-radius: 16px;
+	text-decoration: none;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+div:nth-child(1) {
+	background-image: url(img/photo-1508830524289-0adcbe822b40.jpg);
+	background-size: cover;
+}
+
+div:nth-child(2) {
+	background: maroon;
+}
+
+div:nth-child(3) {
+    height: 400px;
+    background-image: url(img/ilya-pavlov-87438-unsplash.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+div:nth-child(4) {
+	background: aquamarine;
+}
+
+#footer{
+  padding: 30px;
+  background: rgb(30, 30, 30);
+  color: lightgrey;
